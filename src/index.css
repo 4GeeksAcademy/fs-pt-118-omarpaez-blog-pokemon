@@ -1,0 +1,195 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Press+Start+2P&display=swap');
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background: url('src/assets/img/bg.webp');
+}
+
+
+
+.pokemon-title {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.cardsize{
+    width: 14rem;
+    height: auto;
+    border: #E0E0E0;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.imgcard{
+  height: 9rem;
+  width: auto;
+}
+
+.container-style{
+   box-shadow: 0 0.8rem 1rem rgb(24, 32, 26);
+}
+
+.containersize{
+  width: 100%;
+  height: auto;
+  box-shadow: 0 0.8rem 1rem rgba(77, 75, 68, 0.164);
+  background-color: #FAFAFA;
+}
+
+.card-hover {
+  transition: all 0.3s ease;
+
+}
+
+.card-hover:hover {
+  box-shadow: 0 0.5rem 0.5rem #FFCA28;
+  transform: translateY(-2px);
+ } 
+
+.btn-view{
+  background-color: #4285F4;
+  color: white
+}
+
+.btn-hover:hover {
+  background-color: #FECB02;
+  color:#4285F4;
+  font-weight:600;
+
+   box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.3);
+}
+
+.btn-favorite{
+  color: rgba(80, 78, 75, 0.836);;
+}
+
+.btn-favorite-active{
+  color:red;
+}
+
+.btn-favorite:hover{
+  
+  color:red;
+  
+}
+
+.pointer {
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.pointer:hover{
+
+    transform: scale(1.075);
+
+}
+
+.active-scroll{
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+
+h2{
+  color: #212121;
+}
+
+h5{
+  color: #424242;
+}
+
+.item-pixel {
+ width: 90px;
+  height: 90px;
+  image-rendering: auto;  
+  image-rendering: crisp-edges;
+  align-self: center;
+}
+
+.bg-red{
+ background-color: #F08030;
+ }
+.bg-blue{
+background-color: #6890F0;
+}
+.bg-gree{
+background-color: #78C850;
+}
+.bg-indig{
+background-color: #A890F0;
+}
+.bg-purple{
+background-color: #A040A0;
+}
+
+.bg-lime{
+background-color: #A8B820;
+}
+
+.bg-gray{
+background-color: #A8A878;
+}
+
+
+.bg-normal{
+background-color: #A8A77A;
+}
+.bg-fuego{
+background-color: #EE8130;
+}
+.bg-agua{
+background-color: #6390F0;
+}
+.bg-planta{
+background-color: #7AC74C;
+}
+.bg-eléctrico{
+background-color:#F7D02C;
+}
+.bg-hielo{
+background-color:#96D9D6;
+}
+.bg-lucha{
+background-color:#C22E28;
+}
+.bg-veneno{
+background-color:#A33EA1;
+}
+.bg-tierra{
+background-color: #E2BF65;
+}
+.bg-volador{
+background-color: #A98FF3;
+}
+.bg-psíquico{
+background-color: #F95587;
+}
+.bg-bicho{
+background-color: #A6B91A;
+}
+.bg-roca{
+background-color: #B6A136;
+}
+.bg-fantasma{
+background-color: #735797;
+}
+.bg-dragón{
+background-color:#6F35FC;
+}
+.bg-siniestro {
+background-color: #705746;
+}
+.bg-acero{
+background-color:#B7B7CE;
+}
+.bg-had{
+background-color: #D685AD;
+}
+
+
+.fs-7 {
+  font-size: 0.90rem; 
+}
+
+.bgcolor{
+  background-color: var(--bs-blue);
+}
